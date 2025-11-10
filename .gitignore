@@ -1,0 +1,6 @@
+# Ignora Configuración de mi Visual Studio;
+.vs/
+
+# Ignora archivos que se crean automaticamente al compilarse;
+bin/
+obj/
