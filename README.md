@@ -12,7 +12,7 @@ Clase padre _Disco_, tenemos lo siguiente:
 - Definimos el constructor pasándole parámetros para poder dar valor a los atributos.
 
 - También definimos el constructor sin parámetros por si fuese necesario crear el objeto aun sin saber algunos datos.
-> EJEMPLO: El probeedor de una tienda saca un nuevo producto (un prototipo), tenemos la referencia de él pero no todos los datos técnicos.
+> EJEMPLO: El proveedor de una tienda saca un nuevo producto (un prototipo), tenemos la referencia de él pero no todos los datos técnicos.
 
 - Creamos los getters y setters de cada atributo controlando en el set que el valor no sea inferior a 0 (en caso de los números) y en caso de texto, le ponemos un texto por defectos siempre que esté vacío
 
@@ -26,7 +26,7 @@ Se identifica que métodos de acción se necesitan para cada objeto, se crea una
 #### CLASES HIJO:
 Clase hijo _CD_ y _DiscoDuro_, tenemos lo siguiente:
 
-- Herencia de _Disco_, implementamos las interfaces necesarias para cada Clase, (alguna interfaz se comparte porque tienen el mismo comportamiento, aun que no el mismo dato).
+- Herencia de _Disco_, implementamos las interfaces necesarias para cada Clase, (alguna interfaz se comparte porque tienen el mismo comportamiento, aunque no el mismo dato).
 
 - Creamos para cada clase un atributo especifico. También creamos su getter y setter controlando el valor.
 
